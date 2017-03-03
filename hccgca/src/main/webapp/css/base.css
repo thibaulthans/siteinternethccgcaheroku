@@ -1,0 +1,510 @@
+
+
+
+body {
+  padding-top: 64px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.border_text {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+ /** test **/
+.boxe_circle{ //text
+  border-color: red;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50%;
+}
+
+.nomargin{
+  margin: 0px;
+}
+
+.nomarginbottom {
+  margin-bottom: 0px;
+}
+
+.glyficon{
+  font-size:80px;
+}
+
+.color_bleu_royal{
+  background-color: #2d466d;
+}
+
+.color_bleu_pale{
+  background-color: #3579b5;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.entete_partie_bleu{
+  height: 40px;
+  background-color: #3579b5;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+
+}
+
+.color_texture_white{
+  background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.entete_partie_white{
+  height: : 40px;
+  background-color: #ffffff;
+background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+
+.navbar-default .navbar-nav>li>a{
+  color : black;
+}
+
+.centrage_vertical_force{
+  padding-top:60px;
+}
+
+.center_horizontal{
+text-align: center;
+}
+
+.vcenter{
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.bleuroyal{
+  color: #2d466d ;
+}
+
+.background_royalbleu{
+  background-color: #2d466d ;
+}
+
+.text_royalbleu{
+  color : #2d466d;
+}
+
+.text_white{
+  color : white;
+}
+
+.text_black{
+  color: black;
+}
+
+.background_grey{
+  background-color: grey;
+}
+
+.background_white{
+  background-color: white;
+}
+
+.no_margin{
+  margin-top: 0px;
+}
+
+.margin_dixpx{
+  margin-bottom: 10px;
+}
+
+.padding_vingtpx{
+  padding-top: 20px;
+}
+
+.padding_trentepx{
+  padding-top: 30px;
+}
+
+.margin_2px {
+  margin: 2px;
+}
+
+.margin_vingtpx{
+  margin-bottom: 20px;
+}
+
+.margin_cinquantepx{
+  margin-bottom: 50px;
+}
+
+.margin_soixantedixpx{
+  margin-bottom: 70px;
+}
+
+.margin_quarante{
+  margin-top: 40%;
+  margin-bottom: 15%;
+}
+
+.margin_centvingtpx{
+  margin-bottom: 120px;
+}
+
+.margin_centcinquantepx {
+  margin-bottom: 150px;
+}
+
+.margin_deuxcent {
+  margin-bottom: 200px;
+}
+
+form{
+  margin-cara: 0%;
+}
+
+input.search_personalize{
+  margin-left: 0px;
+}
+
+form.navbar-right{
+  margin-right: 0px;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+
+.search-form .form-group {
+  float: right !important;
+  transition: all 0.35s, border-radius 0s;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+}
+.search-form .form-group input.form-control {
+  padding-right: 20px;
+  border: 0 none;
+  background: transparent;
+  box-shadow: none;
+  display:block;
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+  display: none;
+}
+.search-form .form-group input.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+  display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+  width: 100%;
+  border-radius: 4px 25px 25px 4px;
+}
+.search-form .form-group span.form-control-feedback {
+  position: absolute;
+  top: -1px;
+  right: -2px;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: black;
+  left: initial;
+  font-size: 14px;
+}
+
+div.form-group.has-feedback{
+  margin-bottom: 0px;
+}
+
+div.cara {
+    clear: both;
+    background-color: #cccccc;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+/** Buton télécharger **/
+
+
+.input-file-container {
+  position: relative;
+  width: 100%;
+}
+.jsun #input-file-triggerun {
+  display: block;
+  padding: 6px;
+  background: white;
+  color: black;
+  font-size: 1em;
+  transition: all .4s;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.jsdeux #input-file-triggerdeux {
+  display: block;
+  padding: 6px;
+  background: white;
+  color: black;
+  font-size: 1em;
+  transition: all .4s;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.jsun #input-fileun {
+  position: absolute;
+  top: 0; left: 0;
+  width: 225px;
+  opacity: 0;
+  padding: 14px 0;
+  cursor: pointer;
+}
+
+.jsdeux #input-filedeux {
+  position: absolute;
+  top: 0; left: 0;
+  width: 225px;
+  opacity: 0;
+  padding: 14px 0;
+  cursor: pointer;
+}
+
+.jsun #input-fileun:hover + #input-file-triggerun,
+.jsun #input-fileun:focus + #input-file-triggerun,
+.jsun #input-file-triggerun:hover,
+.jsun #input-file-triggerun:focus {
+  color: black;
+  border-color: #66afe9;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+
+.jsdeux #input-filedeux:hover + #input-file-triggerdeux,
+.jsdeux #input-filedeux:focus + #input-file-triggerdeux,
+.jsdeux #input-file-triggerdeux:hover,
+.jsdeux #input-file-triggerdeux:focus {
+  color: black;
+  border-color: #66afe9;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+
+#file-returnun {
+  margin: 0;
+}
+
+#file-returndeux {
+  margin: 0;
+}
+
+#file-returnun:not(:empty) {
+  margin: 1em 0;
+}
+
+#file-returndeux:not(:empty) {
+  margin: 1em 0;
+}
+
+.jsun #file-returnun {
+  font-style: italic;
+  font-size: .9em;
+  font-weight: bold;
+}
+
+.jsdeux #file-returndeux {
+  font-style: italic;
+  font-size: .9em;
+  font-weight: bold;
+}
+
+.jsun #file-returnun:not(:empty):before {
+  content: "Selected file: ";
+  font-style: normal;
+  font-weight: normal;
+}
+
+.jsdeux #file-returndeux:not(:empty):before {
+  content: "Selected file: ";
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* Useless styles, just for demo styles */
+
+
+.txtcenter {
+  margin-top: 4em;
+  font-size: .9em;
+  text-align: center;
+  color: #aaa;
+}
+.copy {
+  margin-top: 2em;
+}
+.copy a {
+  text-decoration: none;
+  color: #1ABC9C;
+}
+
+ /** Search bar **/
+
+textarea.noresize{
+  resize: none;
+}
+
+ /** main button **/
+
+.button_pers_large{
+  box-shadow: 0 10px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    width : 400px ;
+    border-radius: 2px;
+    background-color: #2d466d;
+    height: 40px;
+}
+
+.button_pers_small{
+    width : 100px ;
+    border-radius: 2px;
+    background-color: #2d466d;
+    height: 40px;
+}
+
+ /** navbar **/
+
+.navbar-default .navbar-nav>li>a:hover{
+  color: black;
+}
+
+ /** Dropdown select option **/
+
+ select:invalid {
+ color: gray;
+}
+
+/** Dropdown button **/
+
+.dropdown_button_pers{width: 400px; margin-top: 0px;background-color: rgba(255, 255, 255, 0.3)}
+
+ /** Dropdown list **/
+  .a_dropdownlist{
+    color: black;
+  }
+
+
+  /** navbar **/
+
+  .navbar-default{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    -webkit-box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.75);
+    border : none;
+    border-radius: 0px;
+
+  }
+
+
+  .form-control{
+    border-radius: 2px;
+  }
+
+  /* Texte HCC et GCA */
+
+  .article_rectangle{
+    padding: 5px;
+    background-color: white;
+    border-radius: 3px;
+    padding: 30px;
+  }
+
+
+  .article_rectangle:hover, .article_rectangle:focus {
+  box-shadow: 0px 0px 17px 0px #cfcfcf;
+  }
+
+  .style_body_hccgca{
+    background-color: #e0e5ea;
+  }
+
+
+  /** logo navbar **/
+
+
+  .global{
+    display: inline-block;
+  }
+
+
+  .div_milieu_s{
+    height: 5px;
+    width: 8px;
+  }
+
+  .div_a_s{
+    height: 35px;
+    padding-left: 26.5px;
+    margin-top: -4px;
+  }
+
+  .div_g_s{
+    height: 14px;
+    padding-left: 25.5px;
+  }
+
+  .style_logo_s{
+    font-size: 16px;
+    color: white;
+  }
+
+  .bloc_logo_s{
+    width: 100px;
+  }
+
+  .navbar-brand{
+    padding-top: 0px;
+    padding-left: 10px;
+  }
+
+.navbar-default .navbar-nav>li>a{
+  color: white;
+}

@@ -1,0 +1,35 @@
+
+/**
+#slide1 {
+   background: url(../img/white.PNG) center 0 no-repeat fixed;
+}
+
+#slide2 {
+   background:url(../img/diagmonds--light--1920x1080GRIS.png); center 0 no-repeat fixed;
+}
+
+.style{
+  height: 300px;
+}
+**/
+
+/* Simon k - AlsacrÃ©ations.com - fÃ©vrier 2012 */
+
+
+/* GÃ©nÃ©ralitÃ©s */
+
+
+
+
+/* Mise en place des diffÃ©rentes parties / slides */
+ #slide2{
+	height: 1000px;
+}
+
+#slide1 {
+	background: url(../img/white.PNG) center 0 no-repeat fixed;
+}
+
+#slide2 {
+	background: url(../img/diagmonds--light--1920x1080GRIS.png) center 0 no-repeat fixed;
+}

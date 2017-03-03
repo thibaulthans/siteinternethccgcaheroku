@@ -1,0 +1,76 @@
+
+.carre_center_horizontal{
+  margin: 0 auto;
+}
+
+.carre_margin_bottom{
+  margin-bottom: 40px;
+}
+
+.carre_margin_top{
+  margin-top: 40px;
+}
+
+.carre{
+  height: 100%;
+  width : 80%;
+  border-radius: 3px;
+}
+
+.carre_boxshadow{
+  -webkit-box-shadow: 0px 0px 26px 0px rgba(200,200,200,1);
+  -moz-box-shadow: 0px 0px 26px 0px rgba(200,200,200,1);
+  box-shadow: 0px 0px 26px 0px rgba(200,200,200,1);
+  transform: scale(1);
+  -webkit-transition: transform 0.3s; /* Safari */
+  transition: transform 0.3s;
+}
+
+.carre_boxshadowin{
+  -webkit-box-shadow: 0px 0px 47px 5px rgba(176,176,176,1);
+  -moz-box-shadow: 0px 0px 47px 5px rgba(176,176,176,1);
+  box-shadow: 0px 0px 47px 5px rgba(176,176,176,1);
+  transform: scale(1.01);
+  -webkit-transition: transform 0.3s; /* Safari */
+  transition: transform 0.3s;
+}
+
+.carre div: hover{
+  -webkit-box-shadow: 0px 0px 30px 8px rgba(200,200,200,1);
+-moz-box-shadow: 0px 0px 30px 8px rgba(200,200,200,1);
+box-shadow: 0px 0px 30px 8px rgba(200,200,200,1);
+}
+
+.text_size{
+  font-size: 28px;
+}
+
+.glyphicon{
+  line-height: normal;
+}
+
+.section_hover{
+  background-color: green;
+  height: 100px;
+  position: absolute;
+}
+
+.scale_gly{
+   transform: rotate(360deg);
+   -webkit-transition: transform 1s; /* Safari */
+   transition: transform 1s;
+}
+
+.scale_gly_after{
+   -webkit-transition: transform 1s; /* Safari */
+   transition: transform 1s;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  .text_size{
+    font-size: 4vw;
+  }
+}

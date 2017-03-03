@@ -1,0 +1,10 @@
+
+
+.image_background{
+  background-image: url(../img/shattered-1920x1080.png);
+  height: 250px;
+}
+
+.btn-primary{
+  border: none;
+}

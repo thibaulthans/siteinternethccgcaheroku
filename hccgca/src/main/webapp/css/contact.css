@@ -1,0 +1,38 @@
+form {  /** à revoir **/
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+.contactinfo {
+  display: inline-block;
+  text-align: center;
+}
+
+#content_inner {
+    width: 960px;
+    margin: auto;
+    padding-top: 0;
+}
+
+.nopaddingleft {
+  padding-left: 0px;
+}
+
+.gmaps-frame {
+  height: 480px;
+  border: 0;
+  width: 100%;
+  display: list-item;
+}
+
+.mapit {
+  height: auto;
+}
+
+/* format du formulaire de contact pour tout les écrans quand ceux ci sont inférieurs à  1280px*/
+
+
+
+/* information map pour écran taille tablette ou inférieur */

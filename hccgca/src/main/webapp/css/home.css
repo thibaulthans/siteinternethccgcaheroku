@@ -1,0 +1,212 @@
+
+.align{
+  text-align: center;
+  font-size: 50px;
+  height: 43px;
+  font-family: "verdana";
+}
+
+/**
+.image_background_hcc{
+    background-image: url(../img/diagmonds--light--1920x1080GRIS.png);
+    position: relative;
+}
+
+.image_background_gca{
+  background-image: url(../img/shattered-1920x1080.png);
+}
+
+**/
+
+
+.skill {
+  -moz-box-shadow: 0px -2px 6px 0px #a8a2a2;
+-webkit-box-shadow: 0px -2px 6px 0px #a8a2a2;
+-o-box-shadow: 0px -2px 6px 0px #a8a2a2;
+box-shadow: 0px -2px 6px 0px #a8a2a2;
+}
+
+.why_us {
+  -moz-box-shadow: 0px 2px 6px 0px #a8a2a2 inset;
+-webkit-box-shadow: 0px 2px 6px 0px #a8a2a2 inset;
+-o-box-shadow: 0px 2px 6px 0px #a8a2a2 inset;
+box-shadow: 0px 2px 6px 0px #a8a2a2 inset;
+}
+
+.our_team {
+  -moz-box-shadow: 0px 2px 6px 0px #676974 inset;
+-webkit-box-shadow: 0px 2px 6px 0px #676974 inset;
+-o-box-shadow: 0px 2px 6px 0px #676974 inset;
+box-shadow: 0px 2px 6px 0px #676974 inset;
+}
+
+.recruitment{
+  -moz-box-shadow: 0px -2px 6px 0px #676974;
+-webkit-box-shadow: 0px -2px 6px 0px #676974;
+-o-box-shadow: 0px -2px 6px 0px #676974;
+box-shadow: 0px -2px 6px 0px #676974;
+}
+
+
+/* BOUTON !!!! */
+
+/* Général */
+
+.btn_home {
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    border-radius: 3px;
+    background-color: #2d466d;
+    height: 40px;
+    font-size: 16px;
+    margin-bottom: 88px;
+}
+
+.btn_home_right {
+  margin-left: 150px;
+  width: 200px;
+}
+
+.btn_home_left {
+  margin-right: 150px;
+  width: 200px;
+}
+
+.btn_home_recruitment, .btn_home_recruitment a:visited, .btn_home_recruitment a:link, .btn_home_skill {
+  text-decoration: none;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.btn_home_estimate, .btn_home_estimate a:visited, .btn_home_estimate a:link  {
+  text-decoration: none;
+  color: #2d466d;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+ .btn_home_estimate:hover,.btn_home_recruitment:hover, .btn_home_skill:hover {
+  color: white;
+}
+
+/* Particulier */
+
+.btn_home_estimate{
+  border-color: #2d466d;
+  background: rgba(45,70,109,1);
+  color: white;
+  border-width: 2px;
+  background: linear-gradient(to bottom right, #2D466D, #142D54);
+}
+
+.btn_home_recruitment {
+border-width: 1px;
+background:rgba(255,255,255,0.3);
+}
+
+.btn_home_skill {
+  border-width: 1px;
+  background:rgba(255,255,255,0.3);
+}
+
+.btn_home_estimate:hover {
+color: #2d466d;
+background: white;
+border-color: #2d466d;
+}
+
+.btn_home_recruitment:hover {
+  background:rgba(255,255,255,0.4);
+}
+
+.btn_home_skill:hover {
+  background:rgba(255,255,255,0.4);
+}
+
+
+
+@media all and (min-width: 600px)
+{
+/*  .btn_home_recruitment {
+  margin-top: 71px;*/
+  }
+
+/*  .why_us, .our_team, .recruitment, .skill {
+    min-height: 250px;
+  }*/
+
+
+}
+
+
+
+/** logo **/
+
+.global{
+  display: inline-block;
+}
+
+.div_g{
+ height: 34px;
+ padding-left: 62.5px;
+}
+
+.div_a{
+  height: 35px;
+  padding-left: 62.5px;
+  margin-top: -12.5px;
+
+}
+
+.div_milieu_un{
+  height: 10px;
+  width: 25px;
+}
+
+.div_milieu_deux{
+  height: 7px;
+  width: 25px;
+
+}
+
+.div_milieu_trois{
+  height: 10px;
+  width: 25px;
+}
+
+.style_logo{
+  font-size: 40px;
+}
+
+.bloc_logo{
+  width: 300px;
+}
+
+
+.slide1 {
+   background: url(../img/white.PNG) center 0 no-repeat fixed;
+   height: 300px;
+}
+
+.slide2 {
+   background:url(../img/diagmonds--light--1920x1080.png) center 0 no-repeat fixed;
+   min-height: 350px;
+}
+
+.slide3 {
+   background: url(../img/shattered-1920x1080.png) center 0 no-repeat fixed;
+   opacity: 0.9;
+}
+
+
+
+.visibility_hidden{
+  opacity: 0;
+  transition: opacity 0.3s linear;
+}
+
+.translate_gca{
+    transform: translate(-29px, 0px);
+    transition: transform 0.3s linear;
+}

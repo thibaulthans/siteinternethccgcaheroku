@@ -1,0 +1,11 @@
+
+
+
+.image_background{
+  background-image: url(../img/diagmonds--light--1920x1080.png);
+    height: 250px;
+}
+
+body{
+  position: relative;
+}
