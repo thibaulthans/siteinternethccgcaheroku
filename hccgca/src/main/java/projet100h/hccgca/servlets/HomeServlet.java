@@ -14,7 +14,7 @@ import org.thymeleaf.extras.java8time.dialect.Java8TimeDialect;
 import org.thymeleaf.templatemode.TemplateMode;
 import org.thymeleaf.templateresolver.ServletContextTemplateResolver;
 
-@WebServlet("/home")
+@WebServlet("/")
 public class HomeServlet extends HttpServlet{
 
 	@Override
