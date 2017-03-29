@@ -4,32 +4,25 @@ import java.io.IOException;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.WebContext;
-import org.thymeleaf.extras.java8time.dialect.Java8TimeDialect;
-import org.thymeleaf.templatemode.TemplateMode;
-import org.thymeleaf.templateresolver.ServletContextTemplateResolver;
 
 @WebServlet("/gca")
-public class GcaServlet extends HttpServlet{
+public class GcaServlet extends AbstractGenericServlet{
+
+	private static final long serialVersionUID = 1L;
 
 	@Override
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		ServletContextTemplateResolver templateResolver = new ServletContextTemplateResolver(request.getServletContext());
-		templateResolver.setTemplateMode(TemplateMode.HTML);
-		templateResolver.setPrefix("/WEB-INF/templates/");
-		templateResolver.setSuffix(".html");
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		TemplateEngine templateEngine = this.createTemplateEngine(req);
 		
-		TemplateEngine templateEngine = new TemplateEngine();
-		templateEngine.setTemplateResolver(templateResolver);
-		templateEngine.addDialect(new Java8TimeDialect());
+		WebContext context = new WebContext(req, resp, req.getServletContext());
 		
-		WebContext context = new WebContext(request, response, request.getServletContext());
-		
-		templateEngine.process("gca", context, response.getWriter());
+		templateEngine.process("gca", context, resp.getWriter());
 	}
+
+	
 }
